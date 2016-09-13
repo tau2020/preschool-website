@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>about</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+
+<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+
+<script type="text/javascript" src="js/jquery.caroufredsel.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+
+<script>
+$(document).ready(function() {
+	//
+
+	//	carouFredSel team
+	$('#team .carousel.main ul').carouFredSel({
+		auto: {
+			timeoutDuration: 8000
+		},
+		responsive: true,
+		prev: '.team_prev',
+		next: '.team_next',
+		width: '100%',
+		scroll: {
+			items: 1,
+			duration: 1000,
+			easing: "easeOutExpo"
+		},
+		items: {
+        	width: '250',
+			height: 'variable',	//	optionally resize item-height
+			visible: {
+				min: 1,
+				max: 5
+			}
+		},
+		mousewheel: false,
+		swipe: {
+			onMouse: true,
+			onTouch: true
+			}
+	});
+
+
+
+
+
+
+	$(window).bind("resize",updateSizes_vat).bind("load",updateSizes_vat);
+	function updateSizes_vat(){
+		$('#team .carousel.main ul').trigger("updateSizes");
+
+
+	}
+	updateSizes_vat();
+
+
+
+
+
+
+
+}); //
+$(window).load(function() {
+	//
+
+}); //
+</script>
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>
+	<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<![endif]-->
+</head>
+
+<body class="not-front page-about">
+<div id="main">
+
+<div class="top1_wrapper">
+<div class="container">
+<div class="top1 clearfix">
+
+<header><div class="logo_wrapper"><a href="index.html" class="logo"><img src="images/logo.png" alt=""></a></div></header>
+
+<div class="menu_wrapper">
+<div class="navbar navbar_">
+	<div class="navbar-inner navbar-inner_">
+		<a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<div class="nav-collapse nav-collapse_ collapse">
+			<ul class="nav sf-menu clearfix">
+<li><a href="index.html">Home</a></li>
+<li class="active"><a href="index-1.html">About Us</a></li>
+<li class="sub-menu sub-menu-1"><a href="index-2.html">Classes</a>
+	<ul>
+		<li><a href="index-2.html">Lorem ipsum dolor</a></li>
+		<li class="sub-menu sub-menu-2"><a href="index-2.html">Sit amet consectetue<em></em></a>
+			<ul>
+				<li><a href="index-2.html">lorem ipsum dolor</a></li>
+				<li><a href="index-2.html">sit amet</a></li>
+				<li><a href="index-2.html">adipiscing elit</a></li>
+				<li><a href="index-2.html">nunc suscipit</a></li>
+				<li><a href="404.html">404 page not found</a></li>
+			</ul>
+		</li>
+		<li><a href="index-2.html">Adipiscing elit</a></li>
+		<li><a href="index-2.html">Nunc suscipit</a></li>
+	</ul>
+</li>
+<li><a href="index-3.html">Services</a></li>
+<li><a href="index-4.html">Gallery</a></li>
+<li><a href="index-5.html">Contacts</a></li>
+    </ul>
+		</div>
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="breadcrumbs1_wrapper">
+<div class="container">
+<div class="breadcrumbs1"><a href="index.html">Home page</a><span></span><a href="index.html">Pages</a><span></span>About Us</div>
+</div>
+</div>
+
+<div class="center1">
+
+
+
+
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="span9">
+<div class="section_red no-top">
+
+<h1 class="text-red">Who We Are</h1>
+
+<div class="thumb2 last">
+	<div class="thumbnail clearfix">
+		<figure class="img-polaroid"><img src="images/about01.jpg" alt=""></figure>
+		<div class="caption">
+			<p>
+				<b>
+					Nulla pharetra dignissim enim. Nam cursus eros ut massa. Proin rutrum. Donec non urna non leo aliquam cursus.
+				</b>
+			</p>
+			<p>
+				Vivamus ornare viverra lacus. Fusce id sapien. Donec rhoncus, enim sit amet sodales elementum, elit odio sagittis erat, at tincidunt leo neque non pede. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris ac leo. Aliquam magna nibh, tincidunt ut, lobortis feugiat, consectetuer sed, sapien. Aenean dui eros, tempus non, pulvinar in, vestibulum sed, urna. Nullam eget arcu a pede adipiscing vestibulum. Donec accumsan lacus nec dolor. Etiam porttitor elit. Quisque suscipit, arcu id porttitor vehicula, sem eros congue nulla, id consequat massa diam at dui.
+			</p>
+			<a href="#" class="button1 red">more details</a>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+
+</div>
+<div class="span3">
+<div class="section_blue">
+
+<h2 class="text-center text-blue">Popular Classes</h2>
+
+<div class="date2">
+<div class="number">1.</div>
+<div class="caption">Lorem ipsum</div>
+</div>
+
+<div class="date2">
+<div class="number">2.</div>
+<div class="caption">Dolor sit amet</div>
+</div>
+
+<div class="date2">
+<div class="number">3.</div>
+<div class="caption">Conse ctetur</div>
+</div>
+
+<div class="date2">
+<div class="number">4.</div>
+<div class="caption">Adipisicing</div>
+</div>
+
+<div class="date2">
+<div class="number">5.</div>
+<div class="caption">Elit sed do eiusmod</div>
+</div>
+
+<div class="date2">
+<div class="number">6.</div>
+<div class="caption">Tempor</div>
+</div>
+
+
+</div>
+
+
+
+</div>
+</div>
+<div class="row">
+<div class="span12">
+
+<div class="section_green no-top">
+
+<h2 class="text-green">Our Team</h2>
+
+<p>
+	<b>
+		Nulla pharetra dignissim enim. Nam cursus eros ut massa. Proin rutrum. Donec non urna non leo aliquam cursus.
+	</b>
+</p>
+<p>
+	Vivamus ornare viverra lacus. Fusce id sapien. Donec rhoncus, enim sit amet sodales elementum, elit odio sagittis erat, at tincidunt leo neque non pede. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
+</p>
+
+<div id="team_wrapper">
+<div class="">
+
+<div id="team">
+<a class="team_prev" href="#"></a>
+<a class="team_next" href="#"></a>
+<div class="carousel-box">
+	<div class="inner">
+		<div class="carousel main">
+			<ul>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team01.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Jesica Miller</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team02.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Patrick williams</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team03.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Alexa Smith</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team04.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Adam Wolf</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team05.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Lukash Mowroski</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team01.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Jesica Miller</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team02.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Patrick williams</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team03.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Alexa Smith</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team04.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Adam Wolf</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="team">
+						<div class="team_inner">
+							<a href="#">
+								<figure><img src="images/team05.jpg" alt="" class="img"><em></em></figure>
+								<div class="caption">
+									<div class="txt1">Lukash Mowroski</div>
+									<div class="txt2">director</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+
+
+
+
+
+
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="slogan_wrapper">
+<div class="container">
+<div class="txt1">innovative Methods & Forms of  Teaching</div>
+<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div class="bot1_wrapper">
+<div class="container">
+<div class="row">
+<div class="span4">
+<div class="logo2_wrapper"><a href="index.html" class="logo2"><img src="images/logo2.png" alt=""></a></div>
+</div>
+<div class="span4">
+<div class="phone1_wrapper"><div class="phone1">1 800 123 4567</div></div>
+</div>
+<div class="span4">
+<div class="location1_wrapper"><div class="location1">8901 Marmora Road,<br>Glasgow, D04 89GR.</div></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bot2_wrapper">
+<div class="container">
+
+<div class="social_wrapper social_wrapper_bottom">
+	<ul class="social clearfix">
+	    <li><a href="#"><img src="images/social_ic1.png"></a></li>
+	    <li><a href="#"><img src="images/social_ic2.png"></a></li>
+	    <li><a href="#"><img src="images/social_ic3.png"></a></li>
+	    <li><a href="#"><img src="images/social_ic4.png"></a></li>
+	    <li><a href="#"><img src="images/social_ic5.png"></a></li>
+	</ul>
+</div>
+
+<footer>Copyright &copy; 2016. All rights reserved.</footer>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
